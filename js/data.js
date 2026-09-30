@@ -55,11 +55,37 @@ const PROJECTS = [
     category: "Event Film",
     client: "Lassonde York Unviersity",
     year: 2026,
-    role: "Director, videographer, ditor",
+    role: "Director, videographer, editor",
     type: "youtube",
     videoId: "0gwMGExpwco",
     featured: true,
     description: `Frosh Week is an introduction to university life, defined by high energy, community, and unforgettable first impressions. Approached with a cinematic music-video aesthetic set to 'Beauty and the Beat,' this recap transforms days of live social events and challenges into a vibrant narrative. As my first major multi-day shoot, the project focuses on rhythm, movement, and authentic emotion, giving students a way to look back at the start of their journey.`,
+
+  },
+  {
+    id: "WeekZeroSignOff",
+    title: "Week Zero Frosh Signoff 2026",
+    category: "Event Film",
+    client: "Lassonde York Unviersity",
+    year: 2026,
+    role: "Director, videographer, editor",
+    type: "youtube",
+    videoId: "WHQkVkpn9dM",
+    featured: true,
+    description: `Fun Quick Sign off videos. Film with limited tools and materials`,
+
+  },
+   {
+    id: "CarSmashRecap",
+    title: "LES Car Smash Recap",
+    category: "Event Film",
+    client: "Lassonde Engineering Society",
+    year: 2026,
+    role: "Director, videographer, editor",
+    type: "youtube",
+    videoId: "e0eIXQyEyKg",
+    featured: true,
+    description: `Recap video for Car Smash event hosted by LES`,
 
   },
 
