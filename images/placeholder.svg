@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Image placeholder">
+  <rect width="1600" height="900" fill="#082B21"/>
+  <rect x="40" y="40" width="1520" height="820" fill="none" stroke="#6D9773" stroke-width="2" stroke-dasharray="14 12"/>
+  <g fill="none" stroke="#BB8A52" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="700" y="380" width="200" height="140" rx="14"/>
+    <circle cx="800" cy="450" r="38"/>
+    <path d="M740 380l14-26h92l14 26"/>
+  </g>
+  <text x="800" y="600" text-anchor="middle" font-family="system-ui, sans-serif" font-size="34" fill="#B4C6B5">Add your image</text>
+</svg>

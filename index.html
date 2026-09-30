@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <meta name="description" content="Videography, photography and video editing portfolio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+  <header class="site-header" id="site-header"></header>
+
+  <main>
+    <section class="wrap hero">
+      <div>
+        <h1 id="hero-title"></h1>
+        <p class="lead" id="hero-intro"></p>
+        <div class="btn-row">
+          <a class="btn" href="projects.html">See the projects</a>
+          <a class="btn ghost" href="contact.html">Get in touch</a>
+        </div>
+      </div>
+      <div id="hero-feature"></div>
+    </section>
+
+    <section class="wrap section" id="recent-section">
+      <div class="section-head">
+        <h2>More projects</h2>
+        <a href="projects.html">View all projects</a>
+      </div>
+      <div class="grid" id="featured-grid"></div>
+    </section>
+
+    <section class="wrap section" id="clients-section">
+      <h2>Clients and collaborators</h2>
+      <ul class="clients" id="clients"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

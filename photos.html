@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photos</title>
+  <meta name="description" content="Photography portfolio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="photos">
+  <header class="site-header" id="site-header"></header>
+
+  <main class="wrap">
+    <div class="page-head">
+      <h1>Photos</h1>
+      <p>Select a category, then open any photo to see it larger.</p>
+    </div>
+
+    <div class="tabs" id="tabs" role="group" aria-label="Filter by category"></div>
+    <div class="photos" id="photo-grid"></div>
+  </main>
+
+  <!-- Lightbox: click a photo to open, arrow keys or buttons to move between photos -->
+  <dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+    <button class="close" type="button" data-close aria-label="Close">&times;</button>
+    <div class="lb-inner">
+      <img id="lb-img" alt="">
+      <div class="lb-bar">
+        <button class="lb-btn" type="button" data-prev aria-label="Previous photo">&#8249;</button>
+        <p id="lb-cap"></p>
+        <button class="lb-btn" type="button" data-next aria-label="Next photo">&#8250;</button>
+      </div>
+    </div>
+  </dialog>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
