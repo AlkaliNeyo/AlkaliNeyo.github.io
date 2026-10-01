@@ -115,7 +115,7 @@ const PHOTOS = [
   { src: "images/photos/CarSmash/Car.png", category: "Car Smash 2026", title: "Car", description: "LES - Car Smash 2026" },
   { src: "images/photos/CarSmash/Action.png", category: "Car Smash 2026", title: "Hammer Up!" },
   { src: "images/photos/CarSmash/Close.png", category: "Car Smash 2026", title: "Hammer Side!" },
-  { src: "images/photos/CarSmash/hit.png", category: "Car Smash 2026", title: "Boom!" },
+  { src: "images/photos/CarSmash/Hit.png", category: "Car Smash 2026", title: "Boom!" },
   { src: "images/photos/RockClimbing/DSC02382.png", category: "Rock Climbing", title: "THE hold" },
   { src: "images/photos/RockClimbing/DSC02459.png", category: "Rock Climbing", title: "Spider Woman" },
   { src: "images/photos/RockClimbing/DSC02474.png", category: "Rock Climbing", title: "FishEye",  description: "#CelsiusOnCampus" },
