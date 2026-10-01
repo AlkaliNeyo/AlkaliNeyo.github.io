@@ -75,7 +75,7 @@ const PROJECTS = [
     description: `Fun Quick Sign off videos. Film with limited tools and materials`,
 
   },
-   {
+  {
     id: "CarSmashRecap",
     title: "LES Car Smash Recap",
     category: "Event Film",
@@ -87,7 +87,20 @@ const PROJECTS = [
     featured: true,
     description: `Recap video for Car Smash event hosted by LES`,
 
+  }, 
+  {
+    id: "JazzVlog",
+    title: "Jazz Vlog ",
+    category: "Social",
+    client: "Personal",
+    year: 2026,
+    type: "instagram",
+    url: "https://www.instagram.com/p/Da8ecb4RtrW/",
+    thumbnail: "images/thumbs/image.png",
+    description: "Jazz night with a couople of friends",
   },
+
+
 
   /* ---- COPY THIS BLOCK to add your next video, then edit the values ----
   {
@@ -101,7 +114,22 @@ const PROJECTS = [
     videoId: "PASTE_YOUTUBE_ID_HERE",
     description: "Two or three sentences about the project.",
   },
+
+  {
+    id: "my-instagram-reel",
+    title: "My Instagram Reel",
+    category: "Social",
+    client: "Client Name",
+    year: 2025,
+    type: "instagram",
+    url: "https://www.instagram.com/reel/PASTE_CODE_HERE/",
+    thumbnail: "images/thumbs/my-instagram-reel.jpg",
+    description: "Instagram videos play in the same popup. They need a thumbnail.",
+  },
   ------------------------------------------------------------------- */
+
+
+  
 ];
 
 /* ---------- Photos ----------
